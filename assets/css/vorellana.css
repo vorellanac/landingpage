@@ -1,0 +1,21 @@
+
+body{
+  font-style: normal;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #222222;
+  position: relative;
+}
+
+/* foto perfil */
+.pic_perfil{
+  width:200px;
+  height:200px;
+  border-radius:150px;
+}
+
+/*h1 */
+h1{
+  font-size: 20px;
+
+}

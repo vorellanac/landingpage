@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="favicon.png">
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+		<!-- Bootstrap CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+		<link href="assets/css/tiny-slider.css" rel="stylesheet">
+        <!-- Custom css-->
+        <link href="assets/gitcss/style.css" rel="stylesheet">
+		<title>EVA 3 vorellana</title>
+	</head>
+
+	<body>
+		<!-- Navigation -->
+		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">vorellana</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarsFurni">
+					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                        <!--Item active inicio-->
+						<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a>
+						</li>
+						<li><a class="nav-link" href="#sobreMi">Sobre mí</a></li>
+						<li><a class="nav-link" href="#userForm">Registro de usuarios</a></li>						
+					</ul>
+					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+						<li><a class="nav-link" href="#"><img src="assets/images/user.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- End Navigation -->	
+
+		<!-- start contenido principal  -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>{ Hola, <span clsas="d-block">soy Víctor Orellana }</span></h1>
+								<p class="mb-4">¿Te encuentras buscando soluciones informáticas a medida para tus proyectos?. 
+									<br>
+									<strong>No búsques más, registrate y conoce un mundo de soluciones</strong>
+								<p>
+									<a href="#userForm" class="btn btn-secondary me-2">Registrate</a>
+								</p>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		<!-- End contenido principal -->
+		
+		<!-- Start Why Choose Us Section -->
+		<div class="why-choose-section" id="sobreMi">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-6">
+						<h2 class="section-title">Sobre mi</h2>
+						<p>Soy un apasionado estudiante de ingeniería y padre de dos hijos maravillosos. 
+							Ellos son mi inspiración y mi motor para seguir aprendiendo y creciendo en este campo. 
+							Siempre estoy en busca de oportunidades para mejorar mis habilidades y mantenerme al día con las últimas tendencias. 
+							Estoy emocionado por conocer vuestro proyecto y ansío construir soluciones innovadoras.
+						</p>
+
+						<div class="row my-5">
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="assets/images/truck.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Uso de metodologias agiles</h3>									
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="assets/images/bag.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>El producto desarrollado es suyo</h3>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="assets/images/support.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Soporte 24/7 Siempre a su servicio</h3>								
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="assets/images/return.svg" alt="Image" class="imf-fluid">
+									</div>
+									<h3>Soluciones escalables</h3>									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="img-wrap">
+							<img src="assets/images/mi_perifl.jpg" alt="victor Orellana" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end sobre mi -->
+
+		<!--Formulario-->
+		<div class="container" id="userForm">
+			<h1>Formulario de registro</h1>
+			<form>
+				<div class="row">
+				  <div class="col-6">
+					<div class="form-group">
+					  <label class="text-black" for="nombre">Nombre </label>					  
+					  <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre" required>
+					</div>
+				  </div>
+				  <div class="col-6">
+					<div class="form-group">
+					  <label class="text-black" for="apellido">Apellido</label>
+					  <input type="text" class="form-control" id="apellido" placeholder="Ingrese su Apellido" required>
+					</div>
+				  </div>
+				  <div class="col-6">
+					<div class="form-group">
+					  <label class="text-black" for="lname">Edad</label>
+					  <input type="number" class="form-control" id="edad" placeholder="Debes ser mayor de edad">
+					</div>
+				  </div>				
+				</div>
+				<div class="form-group">
+				  <label class="text-black" for="email">Email</label>
+				  <input type="email" class="form-control" id="mail" placeholder="usuario@dominio.com" requiredno >
+				</div>	
+				<div class="form-group  mb-5">
+				  <label class="text-black" for="message">Password</label>
+				  <input type="password" class="form-control" id="password" placeholder="Minimo de 6 caracteres" required minlength="6">
+
+				  <label class="text-black" for="message">Repetir Password</label>
+				  <input type="password" class="form-control" id="passwordRepeat" placeholder="¡Ingresa la contraseña nuevamente, debe ser la misma que registraste en password!" required minlength="6">
+				  <br>  
+				  <input type="checkbox" id="subscribe" value="Subcribirse">¿Desea recibir notificaciones?<br><br>		
+				</div>
+				<button type="button" onclick="validarFormulario()">Registrar</button>	
+			  </form>
+			<!--Inserta los datos almacenados en lista-->  		
+			<table id="usersList"></table>
+			  
+		</div>	
+
+		<br>				
+		<!-- Start Footer Section -->
+		<footer class="footer-section">
+			<div class="container relative">				
+				<div class="row g-5 mb-5">
+					<div class="col-lg-4">
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">¡Gracias por visitarme!</a></div>
+						
+						<ul class="list-unstyled custom-social">
+							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+						</ul>
+					</div>					
+				<div class="border-top copyright">
+					<div class="row pt-4">
+						<div class="col-lg-6">
+							<p class="mb-2 text-center text-lg-start">Victor Orellana Evaluacion 3.								
+								<script>
+					
+									document.write(new Date().toLocaleString());
+								</script> 
+            				</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Section -->
+
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/tiny-slider.js"></script>
+		<script src="assets/js/custom.js"></script>
+		<!--Custom para evaluacion 3 validacion de formulario-->
+		<script src="assets/js/registrate2.js"></script>
+	</body>
+
+</html>
